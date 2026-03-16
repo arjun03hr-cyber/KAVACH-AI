@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Shield, Github, Twitter } from 'lucide-react';
+import { Shield, Github } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -29,8 +29,7 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Connect</h4>
             <div className="flex gap-4">
-              <a href="#" className="text-gray-500 hover:text-primary transition-colors"><Github size={20} /></a>
-              <a href="#" className="text-gray-500 hover:text-accent transition-colors"><Twitter size={20} /></a>
+              <a href="https://github.com/arjun03hr-cyber/KAVACH-AI" className="text-gray-500 hover:text-primary transition-colors"><Github size={20} /></a>
             </div>
           </div>
         </div>
